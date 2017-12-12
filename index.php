@@ -7,13 +7,37 @@
 
 <!-- HEADER -->
 
-	
+<!-- Accueil -->
 
-<div id="accueil" style="height:50vh;background-color:#0F0;"><h2 style="color: #fff; text-align: center; margin: 0 !important; padding: 5%;">Image head</h2></div>
-<div id="billeterie" style="height:50vh;background-color:#00F;" id="test"><h2 style="color: #fff; text-align: center; margin: 0 !important; padding: 5%;">Billeterie</h2></div>
-<div id="actualites" style="height:50vh;background-color:#F00;"><h2 style="color: #fff; text-align: center; margin: 0 !important; padding: 5%;">Actualités</h2></div>
-<div id="equipe" style="height:50vh;background-color:#0F0;"><h2 style="color: #fff; text-align: center; margin: 0 !important; padding: 5%;">Équipe</h2></div>
-<div id="partenaire" style="height:50vh;background-color:#00F;"><h2 style="color: #fff; text-align: center; margin: 0 !important; padding: 5%;">Partenaires</div>
+<div id="accueil" class="accueil">
+	<h2>Image head</h2>
+</div>
+
+<!-- Billeterie -->
+
+<div id="billeterie" class="billeterie">
+	<div id="test" class="test">
+		<h2>Billeterie</h2>
+	</div>
+</div>
+
+<!-- Actualités -->
+
+<div id="actualites" class="actualites">
+	<h2>Actualités</h2>
+</div>
+
+<!-- Équipe -->
+
+<div id="equipe" class="equipe">
+	<h2>Équipe</h2>
+</div>
+
+<!-- Partenaire -->
+
+<div id="partenaire" class="partenaire">
+	<h2>Partenaires</h2>
+</div>
 
 
 
