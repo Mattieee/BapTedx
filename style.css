@@ -83,23 +83,31 @@ h2{color: #fff; text-align: center; margin: 0 !important; padding: 5%;}
 
 /********** Accueil ***********/
 
-.accueil{ height:50vh;background-color:#0F0; }
+.accueil{ height:100vh;background-color:#0F0; }
+.logo{
+	text-align: center;
+	position: relative;
+	padding: 5px;
+	margin: 5px;
+	display: block; 
+}
+.logo > img { height: 100px; width: 300px; }
 
 /********** Billeterie ***********/
 
-.billeterie{ height:50vh;background-color:#00F; }
+.billeterie{ height:100vh;background-color:#00F; }
 
 /********** Actualités ***********/
 
-.actualites{ height:50vh;background-color:#F00; }
+.actualites{ height:100vh;background-color:#F00; }
 
 /********** Équipe ***********/
 
-.equipe{ height:50vh;background-color:#0F0; }
+.equipe{ height:100vh;background-color:#0F0; }
 
 /********** Partenaire ***********/
 
-.partenaire{ height:50vh;background-color:#00F; }
+.partenaire{ height:100vh;background-color:#00F; }
 
 
 

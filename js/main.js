@@ -1,5 +1,7 @@
 $(document).ready(function(){
 	
+/*changement de couleur de la navbar*/
+
 	$(document).scroll(function(){
 		var detect_test = $("#test").offset().top;
 		var scroll_position = $(this).scrollTop();
@@ -28,5 +30,23 @@ $(document).ready(function(){
 			
 		}
 	});
+
+	/*logo center into top left*/
+
+	$(document).scroll(function(){
+	    var detect_billeterie = $("#billeterie").offset().top;
+	    var scroll_position = $(this).scrollTop();
+	    if(scroll_position>detect_billeterie){
+	    	 $(".logo").css({"position":"fixed", "top":"0", "left":"0", "z-index":"9999"});
+	    	 $(".logo").show('slow');
+	    	 $("img").css({"height":"30px", "width":"100px"});
+	   		 }
+	   	 else{
+	      	 $(".logo").css("position","relative");
+	      	 $(".logo").hide();
+	      	  $("img").css({"height":"100px", "width":"300px"});
+	      //
+	   		 }
+	  });
 
 });
