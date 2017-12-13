@@ -37,13 +37,11 @@ $(document).ready(function(){
 	    var detect_billeterie = $("#billeterie").offset().top;
 	    var scroll_position = $(this).scrollTop();
 	    if(scroll_position>detect_billeterie){
-	    	 $(".logo").css({"position":"fixed", "top":"0", "left":"0", "z-index":"9999"});
-	    	 $(".logo").show('slow');
+	    	 $(".logo").css({"position":"fixed", "top":"0", "left":"0", "z-index":"9999", });
 	    	 $("img").css({"height":"30px", "width":"100px"});
 	   		 }
 	   	 else{
 	      	 $(".logo").css("position","relative");
-	      	 $(".logo").hide();
 	      	  $("img").css({"height":"100px", "width":"300px"});
 	      //
 	   		 }
