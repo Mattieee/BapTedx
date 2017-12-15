@@ -14,10 +14,10 @@
 		<h2>Image head</h2>
 		<div class="logo">
 			<img src="<?php echo get_template_directory_uri();?>/img/logoted.png">
-			<div class="bandeau">
+		</div>
+		<div class="bandeau">
 				<img class="bande" src="<?php echo get_template_directory_uri();?>/img/bandeau_déroulant_baptedx.png"/>
 				<img class="bande2" src="<?php echo get_template_directory_uri();?>/img/bandeau_déroulant_baptedx.png"/>
-			</div>
 		</div>
 	</div>
 </div>
