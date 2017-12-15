@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/style.css">
   <script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/BapTedx/BapTedx/js/main.js"></script>
- <script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/BapTedx/BapTedx/js/smooth_scrolling.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/BapTedx/BapTedx/js/smooth_scrolling.js"></script>
   <meta charset="utf-8"/>
 
 
