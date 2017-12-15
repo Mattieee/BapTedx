@@ -48,6 +48,8 @@
 	<h2>Partenaires</h2>
 </div>
 
+<!-- FOOTER -->
+
 
 
 
