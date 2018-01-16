@@ -10,6 +10,9 @@
   <script type="text/javascript" src="<?php bloginfo('url'); ?>/wp-content/themes/BapTedx/BapTedx/js/smooth_scrolling.js"></script>
   <meta charset="utf-8"/>
 
+  <link rel="stylesheet" href="/wp-content/themes/BapTedx/BapTedx/rebour/css/style.css">
+  <link rel="stylesheet" href="/wordpress/wp-content/themes/BapTedx/BapTedx/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
 
   <title>TedX Devinci</title>
@@ -21,25 +24,25 @@
 
 <body>
 
-<!--navbar -->
+  <!--navbar -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
 
-	<div class="container-fluid">
-		<div class="navbar-header hidden-sm">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"> </span>
-			</button>
+   <div class="container-fluid">
+    <div class="navbar-header hidden-sm">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"> </span>
+    </button>
 
-		</div>
-		<div id="navbar" class="navbar-collapse collapse">
+  </div>
+  <div id="navbar" class="navbar-collapse collapse">
 
 
 
-			<?php   
+   <?php   
            /**
            * Displays a navigation menu
            * @param array $args Arguments
@@ -57,10 +60,10 @@
            wp_nav_menu( $args ); 
            ?>
 
+         </div>
+
+
+
        </div>
 
-
-
-   </div>
-
-</nav>
+     </nav>

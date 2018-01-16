@@ -1,6 +1,7 @@
 body { overflow-x: hidden; margin: 0 !important; }
 html{ margin: 0 !important; }
 h2{color: #fff; text-align: center; margin: 0 !important; padding: 5%;}
+h1{color: #fff; text-align: left; padding: 5%;}
 
 /********** HEADER ************/
 
@@ -40,8 +41,8 @@ h2{color: #fff; text-align: center; margin: 0 !important; padding: 5%;}
 .navbar-default .navbar-nav>li>a {
 	color: #fff !important;
 	background: transparent !important;
-    text-decoration: none;
-    padding: 1%;
+	text-decoration: none;
+	padding: 1%;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -96,7 +97,7 @@ h2{color: #fff; text-align: center; margin: 0 !important; padding: 5%;}
 .bandeau{  background: rgba(4, 4, 4, 0.5); width: 100%; margin: 2% 0 4% 0; position: relative; overflow: hidden; padding: 0 0 200px 0;  }
 
 .bandeau .bande { height: 200px !important; width: 1500px !important;    padding: 0; display: inline-block; position: absolute; top: 0; left: 0; -webkit-animation: bandedef linear 30s infinite; animation: bandedef linear 30s infinite; }
-	
+
 .bandeau .bande2 { height: 200px !important;    padding: 0; width: 1500px !important; left: 0; position: absolute; top: 0; opacity: 0; -webkit-animation: bandedef2 linear 30s infinite; animation: bandedefo linear 30s infinite; -webkit-animation-delay: 15s; animation-delay: 13.5s; }
 
 @keyframes bandedef { 0% { -webkit-transform: translateX(100%); transform: translateX(100%); }
@@ -104,25 +105,29 @@ h2{color: #fff; text-align: center; margin: 0 !important; padding: 5%;}
 
 
 @keyframes bandedefo { 0% { -webkit-transform: translateX(100%); transform: translateX(100%);
-opacity: 1; }
-100% { -webkit-transform: translateX(-100%); transform: translateX(-100%);
-opacity: 1; } }
+	opacity: 1; }
+	100% { -webkit-transform: translateX(-100%); transform: translateX(-100%);
+		opacity: 1; } }
 
-/********** Billeterie ***********/
+		/********** Billeterie ***********/
 
-.billeterie{ height:100vh;background-color:#00F; }
+		.billeterie{padding:10% 0;background-image:url(img/billeterie.jpg);background-repeat:no-repeat;background-attachment:scroll;background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 
-/********** Actualités ***********/
+		/********** Actualités ***********/
 
-.actualites{ height:100vh;background-color:#F00; }
+		.actualites{height:100vh ;background-color:#F00; }
 
-/********** Équipe ***********/
+		/********** Équipe ***********/
 
-.equipe{ height:100vh;background-color:#0F0; }
+		.equipe{ height:100vh;background-color:#0F0; }
 
-/********** Partenaire ***********/
+		/********** Partenaire ***********/
 
-.partenaire{ height:100vh;background-color:#00F; }
+		.partenaire{ height:100vh;background-color:#00F; }
+
+		.billeterie
+
+
 
 
 
